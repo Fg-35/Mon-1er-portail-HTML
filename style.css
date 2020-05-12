@@ -1,0 +1,99 @@
+/* Page de formatage pour le HTML, ce qui donne l'organisation et le format au portail */
+header
+{
+	background-image: url("logo_segula.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+body
+{
+	background-image: url("univers4.jpg");
+	background-attachment: fixed;/*Permet de fixé l'image plutôt qu'elle suive le défilement de texte*/
+	/*background-position: 0px 0px;  1=> réglage vers gauche en mesure+, vers la droite en mesure-. Le 2 de haut(-) en bas(+)*/
+	/*background-repeat: no repeat; permet de garder l'image dans sa colonne*/
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+h1
+{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 4px 2px 4px blue;
+}
+ul
+{
+	list-style-type: none; /*Enlève les puce devant les listes à puces*/
+}
+footer
+{
+	background-color: red;
+}
+.titre
+{
+	color: black;/* choix de la couleur du titre pour "PSA"*/
+	text-decoration: underline;
+	list-style: inline;
+}
+#conteneur
+{
+	display: flex;
+	justify-content: space-between;
+}
+#PSA
+{
+	width: 30%;
+	background-image: url("GT Citroen.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 600px;
+	text-align: left;
+	border: 3px solid white;
+}
+.PSA/*pour la class de PSA, le point devant fait office pour la balise class, si la balise était "id", je remplace le point par # */
+{
+	color: maroon;/* choix de la couleur*/
+	font-size: 1.9em;/*taille de l'écriture*/
+	font-family: Times New Roman, Arial Black;/*la police d'écriture, la 1ère est mise en évidence et la 2nd au cas où la 1ère n'existe pas sur le PC*/
+	font-style: italic;/*Mettre le texte en italique*/
+	font-weight: bold;/*Mettre le texte en gras*/
+	text-decoration: underline;/*Mettre le texte surligné "underline" et texte rayé ==> "line-through" */
+	text-align: center;/* Alignement de texte par "center", "left" pour la gauche, "right" pour la droite, "justify"prend la globalité */
+}
+#Ségula
+{
+	width: 30%;
+	background-image: url("Hagora 3.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 600px;
+	border: 3px solid white;
+}
+.Ségula
+{
+	color: blue;
+	font-size: 1.9em;
+	font-family: Times New Roman, Arial Black;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+#Renault
+{
+	width: 30%;
+	background-image: url("renault-sport-rs01.png");
+	background-repeat: no-repeat;
+	background-size: 500px 600px;
+	border: 3px solid white;
+	
+}
+.Renault
+{
+	color: yellow;
+	font-size: 1.9em;
+	font-family: Times New Roman, Arial Black;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
